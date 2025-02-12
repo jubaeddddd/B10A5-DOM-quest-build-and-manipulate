@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- lexend font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <!-- tailwind and daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .lexend {
+            font-family: "Lexend", serif;
+        }
+    </style>
+    <title>Blog Section</title>
+</head>
+
+<body class="lexend m-10">
+    <!-- nav bar starts -->
+    <nav class="bg-[#F9F7F3] h-[120px] fixed top-0 left-0 w-full z-10 p-4">
+        <div class="navbar">
+            <div class="navbar-start">
+                <a id="home-btn" class="btn btn-ghost text-xl font-semibold bg-[#B4F461]">Home</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <img src="logo.png" alt="">
+                <h1 class="font-semibold text-xl ml-4">Donate Bangladesh</h1>
+            </div>
+            <div class="navbar-end">
+                <img src="coin.png" alt="">
+                <h1 id="nav-balance" class="font-semibold text-xl ml-4"><span id="money-have">5500</span> BDT</h1>
+            </div>
+        </div>
+    </nav>
+    <div class="flex mt-48 align-middle">
+        <h1 class="text-5xl font-bold">Important FAQ </h1>
+        <img class="h-20 w-20 ml-4" src="conversation.png" alt="">
+    </div>
+    <!-- FAQ  -->
+    <section class="mt-6">
+        <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What is the Noakhali Flood Relief Fund?</div>
+            <div class="collapse-content">
+                <p class="text-sm lg:text-base">The Noakhali Flood Relief Fund is an initiative to provide immediate aid to those affected by the severe flooding in Noakhali, Bangladesh. The funds will be used to distribute food, clean drinking water, medical supplies, and temporary shelter to the victims. Your donation will help restore hope and rebuild the lives of thousands of families who are in urgent need of assistance.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How can I donate to the Feni Flood Relief Fund?</div>
+            <div class="collapse-content">
+                <p class="text-sm lg:text-base">You can donate to the Feni Flood Relief Fund through our secure online platform. Simply select the Feni Flood Relief option, enter the amount you'd like to donate, and choose your payment method. Every contribution, no matter how small, helps those in dire need of support in Feni.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">What will the Quota Movement Fund Raising be used for?</div>
+            <div class="collapse-content">
+                <p class="text-sm lg:text-base">The Quota Movement Fund Raising is aimed at supporting the ongoing efforts to advocate for fairer recruitment practices in public sector jobs in Bangladesh. The funds will go towards organizing peaceful protests, raising awareness, and supporting the legal costs of individuals involved in the movement. Your support will help ensure a more equitable future for all citizens.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl  font-medium">Is my donation to these funds tax-deductible?</div>
+            <div class="collapse-content">
+                <p class="text-sm lg:text-base">Yes, your donations to the Noakhali Flood Relief Fund, Feni Flood Relief Fund, and Quota Movement Fund Raising are eligible for tax deduction, depending on the regulations in your country. Please consult with your tax advisor for more detailed information. A receipt will be provided for all donations.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">Can I donate in kind or only financially?</div>
+            <div class="collapse-content">
+                <p class="text-sm lg:text-base">While financial donations are the most effective way to provide immediate assistance, we also welcome donations in kind, such as food, clothing, medical supplies, or other essential items. Please contact us directly for further instructions on how to donate goods or services to these specific causes.</p>
+            </div>
+        </div>
+    </section>
+    <script src="blog.js"></script>
+</body>
+
+</html>
